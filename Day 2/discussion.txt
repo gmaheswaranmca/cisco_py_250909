@@ -158,3 +158,9 @@ employee app ->  inmemory array -> element: tuple
 employee app ->  inmemory array -> element: dict 
 employee app ->  binary file storage -> element: dict
 employee app ->  json file storage -> element: dict  
+=====================================================
+Tomorrow: 
+    Assignment: 2 problems 
+    Completing the application:
+        Flight : {id, number, airline_name, seats, price, source, destination}
+        1. json DB 2. bindary DB  
