@@ -1,0 +1,460 @@
+Kiran Kumar K 10-09-2025 08:32 • good morning mahes
+You 10-09-2025 08:32 • good morning kiran
+You 10-09-2025 08:44 • 9750592159
+Vintha Vivekananda 10-09-2025 08:44 • Yes
+Yashaswini Poojari L 10-09-2025 08:44 • 8431601491
+You 10-09-2025 08:52 • https://github.com/gmaheswaranmca/cisco_py_250909.git
+Vintha Vivekananda 10-09-2025 09:02 • Library 
+Vipin Kolar Shivaprakash 10-09-2025 09:57 • yes mahesh
+Yadoji Bokare 10-09-2025 09:57 • clear
+Kiran Kumar K 10-09-2025 09:58 • yes 
+Punit Kumar 10-09-2025 09:58 • Yes
+Vanagani Raviteja 10-09-2025 09:58 • clear sir
+Bhanu Veepuri 10-09-2025 09:58 • yes
+Bhaskar Saini 10-09-2025 09:58 • yes 
+Kiran Kumar K 10-09-2025 09:58 • negative indexing
+Punit Kumar 10-09-2025 10:12 • 15 min
+Kiran Kumar K 10-09-2025 10:13 • okay mahes
+You 10-09-2025 10:13 • break
+Punit Kumar 10-09-2025 10:35 • Yes
+Abhiram Thirupathi 10-09-2025 11:07 • yes
+Punit Kumar 10-09-2025 11:07 • Yes
+Vipin Kolar Shivaprakash 10-09-2025 11:07 • Yes
+Chetan Kukkapally 10-09-2025 11:10 • integers_list = [int(x) for x in input("Enter integers separated by spaces: ").split()]
+sum = 0
+for ele in integers_list:
+sum += ele
+avg = sum/len(integers_list)
+
+file_name = 'numbers_data.txt'
+with open(file_name,'w') as writer:
+writer.write(f'List: {integers_list}\n')
+writer.write(f'Sum: {sum}\n')
+writer.write(f'Average: {avg}')
+
+with open(file_name,'r') as reader:
+line_list = reader.readline()
+line_sum = reader.readline()
+line_avg = reader.readline()
+print(line_list)
+print(line_sum)
+print(line_avg)
+
+Bhanu Veepuri 10-09-2025 11:16 • sentence = input('Enter a sentence: ')
+words = sentence.split()
+tuple_words = tuple(word.upper() for word in words)
+print('List:', words)
+print('Tuple:', tuple_words) 
+
+
+filename = 'sentence_data.txt'
+with open(filename, 'w') as writer:
+writer.write(f'List of words: {words}')
+writer.write(f'Tuple of words: {tuple_words}')
+
+with open(filename, 'r') as reader:
+list_words = reader.readline()
+tuple_words = reader.readline()
+print(list_words)
+print(tuple_words)
+
+Bhanu Veepuri 10-09-2025 11:17 • qn3 answe
+Kiran Kumar K 10-09-2025 11:23 • done mahes
+Vintha Vivekananda 10-09-2025 11:23 • numbers=list(map(int,input("Enter the numbers with spaces :").split()))
+total=sum(numbers)
+avg=total/len(numbers) if numbers else 0
+file_name = "numbers.txt"
+with open(file_name,'w') as writer:
+writer.write(f'List:{numbers}\n')
+writer.write(f'Sum:{total}\n')
+writer.write(f'avg:{avg}')
+with open (file_name,'r') as reader:
+content=reader.read()
+print(content)
+
+this is Q2
+Yadoji Bokare 10-09-2025 11:24 • 
+Question3 sentence = input("Enter a sentence: ")
+
+
+words = sentence.split()
+
+
+words_upper = tuple(word.upper() for word in words )
+
+
+#Save both to file
+with open('sentence_data.txt', 'w') as f:
+f.write("List "+str(words) +"\n")
+f.write("Tuple in UpperCase: "+str(words_upper) +"\n") 
+
+
+with open('sentence_data.txt','r') as f:
+print(f.read)
+
+
+Gnana Lakshmi Vyshnavi Achyuta 10-09-2025 11:25 • 
+sentence = input("Enter a sentence: ")
+words_list = sentence.split()
+print(words_list)
+words_tuple = tuple(word.upper() for word in words_list)
+print(words_tuple)
+file_name = "sentence_data.txt"
+with open(file_name, "w") as writer:
+writer.write(f"List: {words_list}\n")
+writer.write(f"Tuple: {words_tuple}\n")
+with open(file_name, "r") as reader:
+line_list = reader.readline()
+line_tuple = reader.readline()
+
+
+print(line_list)
+print(line_tuple)
+Lasya Harshini Moravineni 10-09-2025 11:25 • sentence=input("Sentence: ")
+sentence_list=sentence.split()
+sentence_tuple=tuple(word.upper() for word in sentence_list)
+
+print(sentence)
+print(sentence_list)
+print(sentence_tuple)
+
+file_name='sentence_data.txt'
+with open(file_name,'w') as writer:
+writer.write(f'List: {sentence_list}\n')
+writer.write(f'Tuple: {sentence_tuple}')
+
+with open(file_name,'r') as reader:
+line_list=reader.readline()
+line_tuple=reader.readline()
+print(line_list)
+print(line_tuple)
+
+
+Abhiram Thirupathi 10-09-2025 11:26 • numbers = input("Enter numbers: ")
+words_list = numbers.split()
+words_tuple = tuple(word.upper() for word in words_list)
+
+file_name = 'sentence_data.txt'
+with open(file_name, 'w') as writer:
+writer.write(f"List: {words_list}\n")
+writer.write(f"Tuple: {words_tuple}\n")
+
+with open(file_name, 'r') as reader:
+line_list = reader.readline()
+line_tuple = reader.readline()
+print(line_list)
+print(line_tuple)
+
+
+Chetan Kukkapally 10-09-2025 11:26 • list_of_names = input("Enter list of names(separated by spaces): ")
+names_list = list_of_names.split()
+names_list.sort()
+names_tuple = tuple(names_list)
+file_name='names_data.txt'
+with open(file_name,'w') as writer:
+writer.write(f'List: {names_list}\n')
+writer.write(f'Tuple: {names_tuple}')
+
+with open(file_name,'r') as reader:
+line_list=reader.readline()
+line_tuple=reader.readline()
+print(line_list)
+print(line_tuple)
+
+question : 4
+Manikanth Madishatti 10-09-2025 11:26 • Answer 3
+———————
+
+
+sentence=input('Enter the sentence : ')
+lis=sentence.split()
+tup=tuple(word.upper() for word in lis)
+with open('sentence_data.txt','w') as writer:
+writer.write(f'List: {lis}\n')
+writer.write(f'Tuple: {tup}')
+
+with open('sentence_data.txt','r') as reader:
+line_list=reader.readline()
+line_tuple=reader.readline()
+print(line_list)
+print(line_tuple)
+
+Sinchana Srinivas 10-09-2025 11:26 • sentence=input("Enter the sentence")
+words_list=sentence.split()
+words_tuple=tuple(word.upper() for word in words_list)
+file_name='sentence_data.txt'
+with open(file_name,'w') as writer:
+writer.write(f'List:{words_list} \n')
+writer.write(f'Tuple : {words_tuple}\n')
+
+with open(file_name,'r') as reader:
+content=reader.read()
+
+print("\nData Read from the file")
+print(content)
+
+Yashaswini Poojari L 10-09-2025 11:26 • sentence = input("Enter a sentence: ")
+words_list = sentence.split()
+words_tuple = tuple(word.upper() for word in words_list)
+
+file_name = "sentence_data.txt"
+with open(file_name, 'w') as writer:
+writer.write(f"List: {words_list}\n")
+writer.write(f"Tuple: {words_tuple}\n")
+
+with open(file_name, 'r') as reader:
+content = reader.read()
+
+print("\nData read from file:")
+print(content)
+Meghana Kakarla 10-09-2025 11:26 • sentence = input("enter the sentence: ")
+words_list = sentence.split()
+words_tuple = tuple(word.upper() for word in words_list)
+filename = "sentence_data.txt"
+
+with open(filename, "w") as f:
+f.write("Words List: " + str(words_list) + "\n")
+f.write("Words Tuple UPPERCASE: " + str(words_tuple) + "\n")
+
+print({"filename": filename})
+
+print("\nReading back from file:")
+with open(filename, "r") as f:
+data = f.read()
+print(data)
+
+Sujith Reddy Sama 10-09-2025 11:26 • sentence=input("Enter the sentence: ")
+words_list=sentence.split()
+words_tuple=tuple(word.upper() for word in words_list)
+
+file_name='sentence_data.txt'
+with open(file_name,'w') as writer:
+writer.write(f'List:{words_list} \n')
+writer.write(f'Tuple : {words_tuple}\n')
+
+with open(file_name,'r') as reader:
+content=reader.read()
+
+print("\nData Read from file")
+print(content)
+
+Thenila Paramaguru 10-09-2025 11:27 • 
+sentence = input("enter a sentence:")
+word_list = sentence.split()
+word_tuple= tuple(word.upper() for word in word_list)
+
+
+file_name = "sentence_data.txt"
+
+
+
+with open(file_name, 'w') as writer:
+writer.write(f'List: {word_list}\n')
+writer.write(f'Tuple: {word_tuple}')
+
+
+with open(file_name, 'r') as reader:
+line_list = reader.readline()
+line_tuple = reader.readline()
+print(line_list)
+print(line_tuple)
+Chetan Kukkapally 10-09-2025 11:27 • question : 4
+
+list_of_names = input("Enter list of names(separated by spaces): ")
+names_list = list_of_names.split()
+names_list.sort()
+names_tuple = tuple(names_list)
+file_name='names_data.txt'
+with open(file_name,'w') as writer:
+writer.write(f'List: {names_list}\n')
+writer.write(f'Tuple: {names_tuple}')
+
+with open(file_name,'r') as reader:
+line_list=reader.readline()
+line_tuple=reader.readline()
+print(line_list)
+print(line_tuple)
+Vanagani Raviteja 10-09-2025 11:27 • sentence = input("Enter a sentence: ")
+words_list = sentence.split()
+words_tuple = tuple(word.upper() for word in words_list)
+
+with open("sentence_data.txt", "w") as file:
+file.write("List: " + str(words_list) + "\n")
+file.write("Tuple: " + str(words_tuple) + "\n")
+
+with open("sentence_data.txt", "r") as file:
+data = file.read()
+
+print("\nData read from file:")
+print(data)
+
+
+Varun Kumar N 10-09-2025 11:27 • 
+sentence = input("Enter a sentence: ")
+words_list = sentence.split()
+words_tuple = tuple(word.upper() for word in words_list)
+file_name = 'sentence_data.txt'
+with open(file_name, 'w') as file:
+file.write(f"List: {words_list}\n")
+file.write(f"Tuple: {words_tuple}\n")
+
+
+
+with open(file_name, 'r') as file:
+list_line = file.readline().strip()
+tuple_line = file.readline().strip()
+
+
+print(list_line)
+print(tuple_line)
+
+
+Vipin Kolar Shivaprakash 10-09-2025 11:27 • 
+qn3. sentence = input("Please enter a sentence: ")
+word_list = sentence.split()
+uppercase_word_tuple = tuple(word.upper() for word in word_list)
+
+
+file_name = 'sentence_data.txt'
+with open(file_name, 'w') as writer:
+writer.write(f'Original Word List: {word_list}\n')
+writer.write(f'Uppercase Word Tuple: {uppercase_word_tuple}\n')
+print(f"\nData successfully saved to '{file_name}'.")
+
+print(f"\nReading data from '{file_name}':")
+with open(file_name, 'r') as reader:
+read_list_line = reader.readline().strip() # .strip() removes trailing newline
+read_tuple_line = reader.readline().strip()
+print(read_list_line)
+print(read_tuple_line)
+
+
+VUTUKURI NAGA VENKATA SATYA VIKRAM 10-09-2025 11:27 • 
+sentence = input("Enter a sentence: ")
+words_list = sentence.split()
+words_tuple = tuple(word.upper() for word in words_list)
+
+file_name = "sentence_data.txt"
+with open(file_name, 'w') as writer:
+writer.write(f"List: {words_list}\n")
+writer.write(f"Tuple: {words_tuple}\n")
+
+with open(file_name, 'r') as reader:
+content = reader.read()
+
+print("\nData read from file:")
+print(content)
+Bhanu Veepuri 10-09-2025 11:27 • list_of_names = input("Enter names seperated by commas:")
+names = list_of_names.split(',')
+names.sort()
+tuple_of_names = tuple(names)
+print('List of names', names)
+print('Tuple of names', tuple_of_names)
+
+
+filename = "names_data.txt"
+with open(filename, 'w') as writer:
+writer.write(f'List of names: {names}\n')
+writer.write(f'Tuple of names: {tuple_of_names}')
+
+with open(filename, 'r') as reader:
+list_names = reader.readline()
+tuple_names = reader.readline()
+print(list_names)
+print(tuple_names)
+
+Ganga Lavanya Venuthurla 10-09-2025 11:27 • sentence = input('Enter a sentence: ')
+words = sentence.split()
+tuple_words = tuple(word.upper() for word in words)
+print('List:', words)
+print('Tuple:', tuple_words) 
+
+
+filename = 'sentence_data.txt'
+with open(filename, 'w') as writer:
+writer.write(f'List of words: {words}')
+writer.write(f'Tuple of words: {tuple_words}')
+
+with open(filename, 'r') as reader:
+list_words = reader.readline()
+tuple_words = reader.readline()
+print(list_words)
+print(tuple_words)
+
+VUTUKURI NAGA VENKATA SATYA VIKRAM 10-09-2025 11:28 • 
+sentence = input("Enter a sentence: ")
+words_list = sentence.split()
+words_tuple = tuple(word.upper() for word in words_list)
+
+file_name = "sentence_data.txt"
+with open(file_name, 'w') as writer:
+writer.write(f"List: {words_list}\n")
+writer.write(f"Tuple: {words_tuple}\n")
+
+with open(file_name, 'r') as reader:
+content = reader.read()
+
+print("\nData read from file:")
+print(content)
+Ankit Rawat 10-09-2025 11:28 • numbers = input("Enter numbers: ")
+words_list = numbers.split()
+words_tuple = tuple(word.upper() for word in words_list)
+file_name = 'sentence_data.txt'
+with open(file_name, 'w') as writer:
+writer.write(f"List: {words_list}\n")
+writer.write(f"Tuple: {words_tuple}\n")
+
+with open(file_name, 'r') as reader:
+line_list = reader.readline()
+line_tuple = reader.readline()
+print(line_list)
+print(line_tuple)
+
+New messages
+Yogi Pedhabuja 10-09-2025 11:29 • 
+sentence = input("Enter a sentence: ")
+words_list = sentence.split()
+words_tuple = tuple(word.upper() for word in words_list)
+file_name = 'sentence_data.txt'
+with open(file_name, 'w') as file:
+file.write(f"List: {words_list}\n")
+file.write(f"Tuple: {words_tuple}\n")
+
+
+with open(file_name, 'r') as file:
+list_line = file.readline().strip()
+tuple_line = file.readline().strip()
+
+
+
+print(list_line)
+print(tuple_line)
+Jayanth Ganesh Pokala 10-09-2025 11:30 • sentence = input("Enter a sentence: ")
+word_list = sentence.split()
+word_tuple = tuple(word.upper() for word in word_list)
+
+filename = "sentence_data.txt"
+with open(filename, "w") as file:
+file.write("List: " + str(word_list) + "\n")
+file.write("Tuple: " + str(word_tuple) + "\n")
+
+print(f"Data saved to {filename}")
+
+print("\nReading back from file:")
+with open(filename, "r") as file:
+content = file.read()
+print(content)
+Punit Kumar 10-09-2025 11:30 • text = input("Enter a text: ")
+words_list = text.split()
+words_tuple = tuple(word.upper() for word in words_list)
+
+with open("sentence_data.txt", "w") as file:
+file.write("List of words:\n")
+file.write(str(words_list) + "\n")
+file.write("Tuple of uppercase words:\n")
+file.write(str(words_tuple) + "\n")
+
+with open("sentence_data.txt", "r") as file:
+data = file.read()
+print("\nData read from file:\n")
+print(data)
