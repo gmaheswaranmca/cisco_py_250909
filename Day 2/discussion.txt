@@ -138,3 +138,19 @@ employees -> each emp : object
 employees -> each emp : dict | save to file 
 (binary | json)
 
+-----------------------------------------------------
+pickle along with the file handle:
+    to persist store / retrieve the python object into / from file
+    python object is stored as binary [byte by byte]
+
+    python 2 - single char is of ascii ie single byte ie 8 bits 
+    python 3 - single char is of unicode ie 16 bits ie 2 byte
+
+    to store the text: file operations 
+    to store the object: binary file ie pickle 
+        object -> memory -> byte by byte => moved to the file
+        byte by byte conversion of the object is called is serialization 
+            ie object to file (bytes) : serialization 
+        the object conversion from byte by byte is called is de-serialization
+            ie file (bytes) to object : deserialization
+                
