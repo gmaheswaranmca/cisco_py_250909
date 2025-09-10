@@ -15,6 +15,7 @@ def read_by_id(id):
     return None 
 
 def update(id, new_employee):#new_employee is update at id
+    global employees
     I = 0
     for employee in employees:
         if employee[0] == id:
@@ -23,6 +24,7 @@ def update(id, new_employee):#new_employee is update at id
         I += 1
     
 def delete_employee(id):
+    global employees
     index = -1
     I = 0
     for employee in employees:

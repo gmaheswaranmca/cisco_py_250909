@@ -1,0 +1,21 @@
+Types
+    Primitive: int, float, bool
+    Derived: str, list, tuple, dict, set / frozenset
+
+----------------------------------------------
+
+Break : 15 minutes
+10:30 am
+
+
+writer = open(filename, 'w')
+writer.write(something)
+#...
+writer.close()
+
+-----
+
+with open(filename, 'w') as writer:
+    writer.write(something)
+    #...
+
