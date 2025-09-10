@@ -153,4 +153,8 @@ pickle along with the file handle:
             ie object to file (bytes) : serialization 
         the object conversion from byte by byte is called is de-serialization
             ie file (bytes) to object : deserialization
-                
+=====================================================
+employee app ->  inmemory array -> element: tuple
+employee app ->  inmemory array -> element: dict 
+employee app ->  binary file storage -> element: dict
+employee app ->  json file storage -> element: dict  
