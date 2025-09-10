@@ -112,5 +112,29 @@ print(find_salaries_sum(1000,2000,100)) # 1000->first | 2000->second | 100->bonu
 
 
 
+==================================
+-> python debugger
+    From vsc, 
+        Run and Debug 
+        -> Picked the programming lang 
+        -> file to be debugged 
+    Then Debugger is on. 
+    There, we have options :
+    continue | step over | step into | step out 
+    We used breakpoints to take the control to the first break point 
+    and then by 'continue' to next next breakpoints. 
 
+    We tried out step into, step out, step over 
+    by using them we will understand.
+
+-> 
+
+employees -> each emp : tuple 
+employees -> each emp : dict 
+employees -> each emp : object 
+
+-> 
+
+employees -> each emp : dict | save to file 
+(binary | json)
 
