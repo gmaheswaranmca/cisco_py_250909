@@ -1,2 +1,0 @@
-List: ['I', 'am', 'Maheswaran']
-Tuple: ('I', 'am', 'Maheswaran')
