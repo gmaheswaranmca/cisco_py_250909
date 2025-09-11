@@ -84,3 +84,10 @@ emp_app_sql_dict_erich/
     pytest 
         $ [pip / pip3] install pytest
 
+
+
+
+
+Assignment: 
+    like employee app on SQLite DB with log/exception/unittest 
+    implement flight app.
