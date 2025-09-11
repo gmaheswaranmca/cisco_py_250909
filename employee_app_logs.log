@@ -1,0 +1,5 @@
+2025-09-11 12:19:06,855 [INFO] BEGIN (implicit)
+2025-09-11 12:19:06,860 [INFO] SELECT employees.id AS employees_id, employees.name AS employees_name, employees.age AS employees_age, employees.salary AS employees_salary, employees.is_active AS employees_is_active 
+FROM employees
+2025-09-11 12:19:06,862 [INFO] [generated in 0.00173s] ()
+2025-09-11 12:19:06,864 [INFO] read all employees.
