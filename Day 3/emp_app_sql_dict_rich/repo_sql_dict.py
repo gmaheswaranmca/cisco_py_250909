@@ -1,6 +1,6 @@
-from db_setup import session, Employee 
-from log import logging 
 from sqlalchemy.exc import SQLAlchemyError, IntegrityError
+from log import logging 
+from db_setup import session, Employee 
 from exc import EmployeeNotFoundError, EmployeeAlreadyExistError, DatabaseError
 #CRUD (Create, Read All | Read One, Update, Delete)
 #Employee App - SQL DB - dict element

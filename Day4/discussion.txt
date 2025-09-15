@@ -1,0 +1,14 @@
+python - function - module 
+    - app -> two module -> import 
+python data structures - composite/derived type - list/dict/tuple
+    - app -> binary db, json db
+    - debugging  
+python - exc, log, package, unit test, sql 
+    -> some of the apps 
+
+
+pylint 
+    - static analyser 
+
+--------------------------------------------------------------
+
