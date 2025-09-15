@@ -1,35 +1,37 @@
-https://github.com/Abhiram0303/cisco_python_250909                  +ankit
-https://github.com/abhiram-valluri/Cisco_Python3_09092025           +yogi
-https://github.com/Ankitrawat1100/python_learing                    +abhiram thirupathi
+https://github.com/Abhiram0303/cisco_python_250909                  +ankit +Abhiram thirupathi
+https://github.com/abhiram-valluri/Cisco_Python3_09092025           +yogi +abhiram-valluri +Nithin
+https://github.com/Ankitrawat1100/python_learing                    +ankit +Abhiram thirupathi
 https://github.com/BhanuBittu/cisco_python_6d                       +meghana +bhanu +manikanth
 https://github.com/bhaskar-saini/Cisco-Python-Learning              +bhaskar +Prajwal +Kiran 
-https://github.com/chetan2110/cisco_python                          +lasya +punit
-https://github.com/khare-divyansh/CISCO_PY_250909/tree/main         +divyansh +jayanth ganesh +Vishwa
-https://github.com/lavanyavenuthurla/cisco_py_250909.git
-https://github.com/vyshnavi-17/CISCOPython
-https://github.com/Ganni2416/Cisco_Python_learning.git
+https://github.com/chetan2110/cisco_python                          (+lasya +punit) (+chetan + Stuti)
+https://github.com/khare-divyansh/CISCO_PY_250909/tree/main         (+divyansh +jayanth ganesh) (+Vishwa +kalyani)
+https://github.com/lavanyavenuthurla/cisco_py_250909.git            +lavanya +vivek
+https://github.com/vyshnavi-17/CISCOPython                          +vyshnavi +Thenila
+https://github.com/Ganni2416/Cisco_Python_learning.git              (+divyansh +jayanth ganesh) (+Vishwa +kalyani)
 https://github.com/Kirankumark116/cisco_py_250909.git               +bhaskar +Prajwal +Kiran
-https://github.com/LasyaMoravineni/cisco_py_250909
+https://github.com/LasyaMoravineni/cisco_py_250909                  (+lasya +punit) (+chetan + Stuti)
 https://github.com/Manikanth2216/Cisco_py_250909.git                +meghana +bhanu +manikanth
 https://github.com/meghanakakarla666/cisco_py_2025.git              +meghana +bhanu +manikanth
 https://github.com/Prajwal-Bandi/core-python-session                +bhaskar +Prajwal +Kiran
-https://github.com/Punitkumar0000/AP-Core-Python.git
-https://github.com/sinchanass/CISCO_Py_09092025
-https://github.com/Stuti1409/Cisco_learning
-https://github.com/Sujith-1608/cisco_py_250909
-https://github.com/Thenila/CISCO-Python
-https://github.com/RAVITEJA1000/ciscopythonlearning
-https://github.com/varunkumarn123/Cisco_python
-https://github.com/vivekv1504/cisco_python_20250909
-https://github.com/01-Vipinks/Vipin_KS_cisco_py_09-09-25.git            +varun
-https://github.com/Vishwa1282/Learning                                  +divyansh +jayanth ganesh +Vishwa
-https://github.com/NithinVuppula/cisco_py_250909                        +??
-https://github.com/vutukuriNVSvikram/cisco_py_090925.git                +yadoji yashawini
-https://github.com/byadoji/cisco_py_090925                              +divyansh +jayanth ganesh +Vishwa
-https://github.com/yogicharan/cisco_py_090925                           +abhiram valluri
-https://github.com/kalyani-p91/cisco-python                             +?? 
+https://github.com/Punitkumar0000/AP-Core-Python.git                (+lasya +punit) (+chetan + Stuti)
+https://github.com/sinchanass/CISCO_Py_09092025                     +sinchana +Sujith
+https://github.com/Stuti1409/Cisco_learning                         (+lasya +punit) (+chetan + Stuti)
+https://github.com/Sujith-1608/cisco_py_250909                      +sinchana +Sujith    
+https://github.com/Thenila/CISCO-Python                             +vyshnavi +Thenila        
+https://github.com/RAVITEJA1000/ciscopythonlearning                 +RAVITEJA +Yashaswini
+https://github.com/varunkumarn123/Cisco_python                      +varun +vipin
+https://github.com/vivekv1504/cisco_python_20250909                     +lavanya +vivek
+https://github.com/01-Vipinks/Vipin_KS_cisco_py_09-09-25.git            +varun +vipin
+https://github.com/Vishwa1282/Learning                                  (+divyansh +jayanth ganesh) (+Vishwa +kalyani)
+https://github.com/NithinVuppula/cisco_py_250909                        +yogi +abhiram-valluri +Nithin
+https://github.com/vutukuriNVSvikram/cisco_py_090925.git                +yadoji +vikram 
+https://github.com/byadoji/cisco_py_090925                              +yadoji +vikram 
+https://github.com/yogicharan/cisco_py_090925                           +yogi +abhiram-valluri +Nithin
+https://github.com/kalyani-p91/cisco-python                             (+divyansh +jayanth ganesh) (+Vishwa +kalyani)
+https://github.com/Yashu1406/cisco_py_090925                            +RAVITEJA +Yashaswini
 
 
+https://forms.gle/aqYbuBkX9NnZoej79
 
 
 
