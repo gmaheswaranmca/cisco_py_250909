@@ -20,6 +20,7 @@ def create():
     crud.create_employee(employee_dict)
     emp_id = employee_dict['id']
     savedEmployee_dict = crud.read_by_id(emp_id)
+    # send the mail
     return jsonify(savedEmployee_dict)
 
 @application.route("/employees", methods = ['GET'])
