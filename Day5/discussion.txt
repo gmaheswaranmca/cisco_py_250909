@@ -26,3 +26,10 @@ SMTP - network automation - simple mail trasfer protocol using gmail - app passw
 
 web scrap : from web site / web pages if they are legal / public sites 
     if data is not getting from APIs of the companies / orgs / business sectors 
+
+
+    http://quotes.toscrape.com
+    http://books.toscrape.com/catalogue
+    https://www.bbc.com/news
+
+    robot.txt Disallow: pagesNotAllowedList

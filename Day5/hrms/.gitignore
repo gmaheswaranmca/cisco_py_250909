@@ -2,5 +2,4 @@
 /__pycache__
 /app/__pycache__
 /client/__pycache__
-/app/main_config.py
-
+/app/mail_config.py
