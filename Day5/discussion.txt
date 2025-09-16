@@ -33,3 +33,17 @@ web scrap : from web site / web pages if they are legal / public sites
     https://www.bbc.com/news
 
     robot.txt Disallow: pagesNotAllowedList
+-----------------------------------------------------------------------------------
+scrap :
+    concurrency programming 
+        - thread - multi threading 
+        - process - multi processing 
+        - co-routines 
+
+    parallel programming (modern) - multi-cores, multi-processors
+
+
+    - scrape_quotes_page - scraps given page of quotes site - 1 task 
+        many times calling scrape_quotes_page fn will scrap many pages 
+        if along with concurrency technique, we will scrap concurrently 
+    - scrape_books_page  - scraps given page of books site  - 1 task 
