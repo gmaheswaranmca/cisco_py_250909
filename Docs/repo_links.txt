@@ -35,4 +35,10 @@ https://forms.gle/aqYbuBkX9NnZoej79
 
 
 
+PMS : 3 groups -> 4 teams 
+HMS : 4 groups -> 5 teams 
+BMS : 3 groups -> 3 teams 
+                --------
+                12 teams 
+
 
